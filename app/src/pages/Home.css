@@ -1,0 +1,96 @@
+.home {
+  padding-top: 30px;
+}
+
+.home__background-divider{
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  z-index: -1;
+  top: 0;
+  background: #1e3c72;
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+}
+
+.home__title{
+  width: 300px;
+  text-align: center;
+  margin: 10px auto 30px auto;
+  color: #ECEFF1;
+  font-weight: 700;
+}
+
+.card {
+  width: 800px;
+  margin: 20px auto 10px auto;
+  padding: 0;
+  display: flex;
+}
+
+.card__experience{
+  margin-bottom: 15px;
+}
+
+.card__media {
+  height: 250px;
+  width: 250px;
+  flex: 1 0 auto;
+}
+
+.card__content-container {
+  display: flex;
+  flex-direction: column
+}
+
+.card__content-view {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.card__content {
+  flex: 1 0 auto;
+  color: #333;
+  width: 90%;
+}
+
+.card__list-item{
+  margin-bottom: 15px;
+}
+
+@media (max-width: 850px) {
+  .card__profile-card{
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90vw;
+    max-width: 450px;
+  }
+
+  .card__media {
+    margin: 0 auto;
+    height: 90vw;
+    width: 90vw;
+    max-height: 450px;
+    max-width: 450px;
+  }
+
+  .card__icon {
+    height: 17px !important;
+    margin-right: 2px !important;
+  }
+
+  .card__experience-text, .card__skills-text{
+    font-size: 0.875rem;
+    padding: 0 6px !important;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card__icon {
+    height: 15px !important;
+  }
+}

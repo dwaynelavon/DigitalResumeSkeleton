@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1520" viewBox="0 0 1680 1520">
+<g fill="none" stroke="#4a7586" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="0, 5">
+  <g stroke-opacity="0.5">
+    <circle cx="322" cy="712" r="26" />
+    <circle cx="322" cy="712" r="42" />
+    <circle cx="322" cy="712" r="61" />
+    <circle cx="322" cy="712" r="85" />
+    <circle cx="322" cy="712" r="118" />
+    <circle cx="322" cy="712" r="134" />
+    <circle cx="322" cy="712" r="150" />
+    <circle cx="322" cy="712" r="188" />
+    <circle cx="322" cy="712" r="272" />
+  </g>
+  <g stroke-opacity="0.5">
+    <circle cx="1298" cy="406" r="36" />
+    <circle cx="1298" cy="406" r="48" />
+    <circle cx="1298" cy="406" r="84" />
+    <circle cx="1298" cy="406" r="118" />
+    <circle cx="1298" cy="406" r="156" />
+    <circle cx="1298" cy="406" r="186" />
+    <circle cx="1298" cy="406" r="208" />
+    <circle cx="1298" cy="406" r="260" />
+    <circle cx="1298" cy="406" r="376" />
+  </g>
+  <g>
+    <circle cx="1238" cy="1120" r="40" />
+    <circle cx="1238" cy="1120" r="52" />
+    <circle cx="1238" cy="1120" r="92" />
+    <circle cx="1238" cy="1120" r="130" />
+    <circle cx="1238" cy="1120" r="172" />
+    <circle cx="1238" cy="1120" r="206" />
+    <circle cx="1238" cy="1120" r="230" />
+    <circle cx="1238" cy="1120" r="288" />
+  </g>
+</g>
+</svg>
