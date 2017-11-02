@@ -3,13 +3,12 @@ const ResumeData = {
   
   tabLabels: ['Skills','Experience'],
   
-  profileSummary: `< Quick summary. Brief overview of  what you bring to the table.>`,
-  
+  profileSummary: `<Brief overview of what you bring to the table>`,
   
   buttonList: [
     {
       label: 'Github',
-      link: '<Link To Your Github>'
+      link: '<Link To Your GitHub>'
     },
     {
       label: 'Link 2',
@@ -30,7 +29,7 @@ const ResumeData = {
 
   experienceList: [
     {
-      company: '<Compnay 1>',
+      company: '<Company 1>',
       projects: [
         {
           id: 1,
