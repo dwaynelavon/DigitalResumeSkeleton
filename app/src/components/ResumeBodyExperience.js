@@ -14,7 +14,7 @@ const experienceListItems = (experience) => experience.projects.map(project =>
 )
 
 const experienceListContainer = (experiences) => experiences.map(experience =>
-  <div>
+  <div key={experience.company}>
     <Typography type="headline" component="h2">
       {experience.company}
     </Typography>
