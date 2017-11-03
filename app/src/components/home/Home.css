@@ -35,7 +35,7 @@
 .card__media {
   height: 250px;
   width: 250px;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .card__content-container {

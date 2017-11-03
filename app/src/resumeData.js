@@ -1,6 +1,10 @@
+import avatar from './images/avatar.png';
+
 const ResumeData = {
   myName: '<Your Name Here>',
   
+  avatar: avatar,
+
   tabLabels: ['Skills','Experience'],
   
   profileSummary: `<Brief overview of what you bring to the table>`,

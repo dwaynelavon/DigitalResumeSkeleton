@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import avatar from '../images/avatar.png';
-import ResumeData from '../resume-data';
+import ResumeData from '../resumeData';
 import { Home } from '../components/home'
 
 class HomeContainer extends Component {
@@ -24,7 +23,7 @@ class HomeContainer extends Component {
       tabLabels: ResumeData.tabLabels,
       skillsList: ResumeData.skillsList,
       experienceList: ResumeData.experienceList,
-      avatar: avatar,
+      avatar: ResumeData.avatar,
       profileSummary: ResumeData.profileSummary,
       buttonLinks: ResumeData.buttonList
     }
