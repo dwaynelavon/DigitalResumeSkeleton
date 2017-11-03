@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import avatar from '../images/avatar.png';
-import ResumeData from '../ResumeData';
+import ResumeData from '../resume-data';
 import { Home } from '../components/home'
 
 class HomeContainer extends Component {
