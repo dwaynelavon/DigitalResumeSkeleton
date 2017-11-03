@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import {ResumeProfileCard, ResumeBodyCard} from '../components';
 import avatar from '../images/avatar.png';
-import './Home.css';
 import ResumeData from '../ResumeData';
+import { Home } from '../components/home'
 
-class Home extends Component {
+class HomeContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -17,30 +16,22 @@ class Home extends Component {
   handleChangeIndex = index => this.setState({ value: index })
 
   render() {  
-    const resumeBodyProps = {
+    const homeProps = {
+      myName: ResumeData.myName,
       value: this.state.value,
       handleChange: this.handleChange,
       handleChangeIndex: this.handleChangeIndex,
       tabLabels: ResumeData.tabLabels,
       skillsList: ResumeData.skillsList,
-      experienceList: ResumeData.experienceList
-    }
-
-    const resumeProfileProps = {
+      experienceList: ResumeData.experienceList,
       avatar: avatar,
       profileSummary: ResumeData.profileSummary,
       buttonLinks: ResumeData.buttonList
     }
-
     return (
-      <div className="home">
-        <div className="home__background-divider"></div>
-        <h2 className="home__title">{ResumeData.myName}</h2>
-        <ResumeProfileCard {...resumeProfileProps}/>
-        <ResumeBodyCard {...resumeBodyProps} />
-      </div>
+      <Home {...homeProps}/>
     );
   }
 }
 
-export default Home;
+export default HomeContainer;
